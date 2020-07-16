@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7000/eureka/
+spring:
+  application:
+    name: pro-service
+#端口
+server:
+  port: 8003
